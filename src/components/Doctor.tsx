@@ -1,9 +1,18 @@
 "use client";
 import Image from "next/image";
 import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
+import { TextGenerateEffect } from "./ui/text-generate-effect";
 
 
 const Doctor = () => {
+  const word1 = `Dr.Sri Theja has pursued her MBBS & MS Obg from prestigious Gandhi medical college & been awarded with Gold medal & many awards for tremendous work in the field of Gynecology & Obstetrics.`;
+  const word2 = `She also Completed Dnb in Gynecology & obstetrics.`;
+  const word3=`Later she got her fellowship in reproductive medicine & got her expertise in Infertility, Pcod & IVF treatments from Oasis Fertility Hyderabad.
+With  all the skills and expertise she showed her passion & hardworking  nature in treating & helping patients past 10yrs & even during  covid times.`
+
+
+
+
     const words = [
         {
           text: "Human Touch",
@@ -80,29 +89,24 @@ const Doctor = () => {
 <div className="mb-[200px] mt-[150px]">
   <p className="font-bold lg:text-[48px] lg:ml-[-400px]" style={{color:"#A5009E"}}>About Dr. Sri Theja Reddy</p>
 </div>
-<div className="flex flex-col lg:flex-row mt-[-100px] lg:ml-[100px] items-center lg:items-start">
-        <div className="w-full lg:w-full xl:w-1/2 md:w-1/2  p-4">
-          <Image
-            src="/Doct1.svg"
-            alt="Duct Image"
-            width={384}
-            height={503}
-            className="lg:mt-[20px] "
-          />
-        </div>
-        <div className="lg:ml-[150px] lg:mr-[250px] p-4">
-          <p className="text-base lg:text-lg">
-            {/* Add your content here */}
-            Dr.Sri Theja has pursued her MBBS & MS Obg from prestigious Gandhi medical college & been awarded with Gold medal & many awards for tremendous work in the field of Gynecology & Obstetrics.
-          </p>
-          <br/>
-          <p className="text-base lg:text-lg">She also Completed Dnb in Gynecology & obstetrics.</p>
-          <br/>
-          <p className="text-base lg:text-lg">Later she got her fellowship in reproductive medicine & got her expertise in Infertility, Pcod & IVF treatments from Oasis Fertility Hyderabad.
-          With  all the skills and expertise she showed her passion & hardworking  nature in treating & helping patients past 10yrs & even during  covid times.</p>
+<div className="flex flex-col lg:ml-[10px]  mt-[40px] bg-light-pink p-8">
+  {/* Doctor Image */}
+  <div className=" lg:ml-[-500px] mt-[-180px] ">
+    <Image
+      src="/s.svg"
+      alt="Doctor"
+      width={370}
+      height={503}
+      className="rounded-[80px] md:rounded-lg"
+    />
+    
+  </div>
+  
+</div>
+<div className="lg:mt-[-500px] xl:ml-[700px] xl:mr-[100px] lg:ml-[500px] lg:mr-[70px] ml-[30px] mr-[10px] justify-between">
+<TextGenerateEffect words={[word1, word2,word3]} lineSpacing="mt-6" />
 
-        </div>
-      </div>
+</div>
 
      
     </div>

@@ -49,10 +49,10 @@ const Testimonial = () => {
           content: (
             <div className="h-full w-full  flex items-center justify-center text-white">
               <Image
-                src="/te1.png"
+                src="/ts1.svg"
                 width={281}
                 height={334}
-                className="h-full w-full object-cover"
+                className="h-full w-full  object-cover"
                 alt="linear board demo"
               />
             </div>

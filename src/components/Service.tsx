@@ -20,7 +20,7 @@ const Service = () => {
     },
   ];
   return (
-    <div className='bg-light-pink '>
+    <div className='bg-light-pink lg:pt-[200px] '>
       <p className='text-dark-pink pt-[150px] text-center font-bold lg:text-[48px] underline'>
       Our Services
       </p>

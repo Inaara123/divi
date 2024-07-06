@@ -18,7 +18,7 @@ const Navbar = () => {
               Logo
             </Link>
           </div>
-          <div className="lg:mr-[10px] mt-[15px] md:mr-[100px] hidden md:flex md:items-center md:space-x-4 gap-x-[140px] md:gap-[50px] font-bold text-[24px] ">
+          <div className="lg:mr-[10px] mt-[15px] md:mr-[100px] font-sans font-bold hidden md:flex md:items-center md:space-x-4 gap-x-[140px] md:gap-[50px] text-[24px] ">
             <Link href="/">
               About
             </Link>
