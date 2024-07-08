@@ -14,9 +14,9 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 flex items-center mt-[15px]  ">
-            <Link href="/">
+            {/* <Link href="/">
               Logo
-            </Link>
+            </Link> */}
           </div>
           <div className="lg:mr-[10px] mt-[15px] md:mr-[100px] font-sans font-bold hidden md:flex md:items-center md:space-x-4 gap-x-[140px] md:gap-[50px] text-[24px] ">
             <Link href="/">

@@ -21,7 +21,7 @@ const Hero = () => {
         alt="Baby"
       />
       <div className="absolute inset-0 flex flex-col justify-center ml-[30px] items-start p-4 md:p-8 lg:p-16 z-20">
-        <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 md:mb-4 lg:mt-[-10px] lg:mb-[50px] " style={{color:"#84027F"}}>Divi Fertility Center</h1>
+        <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 md:mb-4 lg:mt-[20px] mt-[-10px] lg:mb-[50px] " style={{color:"#84027F"}}>Divi Fertility Center</h1>
         <p className="text-lg md:text-xl lg:text-[44px] mb-8 font-poppins font-semibold md:mb-4 drop-shadow-2xl" style={{color:"rgba(72, 15, 92, 1)",}}>
          Guiding You to Safe, Natural Births <br/>
         <span className='block mt-[20px]'>with Exceptional Care</span>

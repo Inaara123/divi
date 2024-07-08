@@ -65,9 +65,9 @@ const Testimonial = () => {
           content: (
             <div className="h-full w-full  flex items-center justify-center text-white">
               <Image
-                src="/linear.webp"
+                src="/d2.jpg"
                 width={300}
-                height={300}
+                height={500}
                 className="h-full w-full object-cover"
                 alt="linear board demo"
               />
@@ -75,23 +75,51 @@ const Testimonial = () => {
           ),
         },
         {
-          title: "Version control",
+          title: "Anupama Eemani",
           description:
-            "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+            "Extra ordinary treatment with keen attention to patient. Nice facility, even the attendants will feel comfortable. Good room maintenance, AC, Attached bathroom with geyser, Drinking water (hot and cold). Overall good personal care. Felt at home, thank you so much Theju mam...",
           content: (
-            <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
-              Version control
+            <div className="h-full w-full  flex items-center justify-center text-white">
+              <Image
+                src="/d3.jpg"
+                width={300}
+                height={500}
+                className="h-full w-full object-cover"
+                alt="linear board demo"
+              />
             </div>
           ),
         },
         {
-          title: "Running out of content",
+          title: "Ganesh Gani",
           description:
-            "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+            "Dr.Sri Theja Reddy took great care of my wife during her pregnancy. She listened patiently to our concerns and explained everything clearly. Thanks to her, we now have twins! We're so thankful to Dr.Sri Theja Reddy. The nurses, caregivers, medical staff, and receptionists were all incredibly caring and supportive. We're grateful to each and every one of them for their kindness and dedication.",
           content: (
-            <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-              Running out of content
-            </div>
+            <div className="h-full w-full  flex items-center justify-center text-white">
+            <Image
+              src="/d4.jpg"
+              width={300}
+              height={500}
+              className="h-full w-full object-cover"
+              alt="linear board demo"
+            />
+          </div>
+          ),
+        },
+        {
+          title: "Maheswar Reddy",
+          description:
+           "I m short of words to express my gratitude to Dr. Sri Theja mam and Hospital staff The way she handled my wife pregnancy n delivery it's remarkable. She is a perfect blend of good human being and a doctor. Most humble and polite and of course most capable in gynecologist which always keeps her patients at ease. She is gem she is like a goddess. Thank u soooo much dr. Sri Theja for such an easy normal delivery., for ur promptness for ur patience for ur friendliness for ur care this platform falls short of praising her rather 'thank u' seems so trivial.",
+          content: (
+            <div className="h-full w-full  flex items-center justify-center text-white">
+            <Image
+              src="/d1.jpg"
+              width={300}
+              height={500}
+              className="h-full w-full object-cover"
+              alt="linear board demo"
+            />
+          </div>
           ),
         },
       ];
