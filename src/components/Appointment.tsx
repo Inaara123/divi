@@ -1,7 +1,8 @@
 "use client"
 import React, { useState } from 'react';
 import axios from 'axios';
-import { toast } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Appointment = () => {
   const [name, setName] = useState('');
@@ -10,25 +11,19 @@ const Appointment = () => {
   const bookAppointment = async () => {
     try {
       const response = await axios.post('http://localhost:3001/appointments', { name, contact });
-      toast.success('Appointment submitted successfully!', {
-        position: "top-center",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-      });
       console.log(response.data);
-      // Handle success (e.g., show a success message)
+      toast.success('Appointment booked successfully!');
+      setName('');
+      setContact('');
     } catch (error) {
       console.error(error);
-      // Handle error (e.g., show an error message)
+      toast.error('Failed to book appointment.');
     }
   };
 
   return (
     <div className="mt-[30px]">
+      <ToastContainer />
       <p className="text-dark-pink font-bold font-sans lg:text-[32px]">Book a consultation</p>
       <div className="space-y-4">
         <div>
