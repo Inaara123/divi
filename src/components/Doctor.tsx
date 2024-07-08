@@ -4,6 +4,7 @@ import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 
 
+
 const Doctor = () => {
   const word1 = `Dr.Sri Theja has pursued her MBBS & MS Obg from prestigious Gandhi medical college & been awarded with Gold medal & many awards for tremendous work in the field of Gynecology & Obstetrics.`;
   const word2 = `She also Completed Dnb in Gynecology & obstetrics.`;
@@ -71,23 +72,23 @@ With  all the skills and expertise she showed her passion & hardworking  nature 
       <div className=" p-6 shadow-md text-white rounded-[30px] bg-dark-pink">
         
         {/* Add education details here */}
-        <p>Dr. Sri Theja and Dr. Mallik Arjun</p>
-        <p style={{color:"#C9C9C9"}}>Founders of Divi Fertility Center</p>
+        <p className="font-baloo font-bold">Dr. Sri Theja and Dr. Mallik Arjun</p>
+        <p className=" font-baloo font-normal" style={{color:"#C9C9C9"}}>Founders of Divi Fertility Center</p>
         
       </div>
     </div>
 
     {/* Left Side Content */}
-    <div className="w-auto lg:w-[500px] lg:h-[485px] lg:ml-[200px] lg:mt-[-350px]">
+    <div className="w-auto lg:w-[500px] lg:h-[485px] lg:ml-[200px] lg:mt-[-410px]">
       <div className="bg-dark-pink rounded-[30px] p-6 shadow-md">
         {/* Add left side content here */}
-        <p className="text-white ">Pregnancy is the most beautiful moment in a couple’s life. We deeply understand that alongside  this happiness, there are also many doubts, a lot of confusion and anxiety. You can ask us anything and we will patiently answer them all till you are at absolute ease. For us, it is equally important to provide you with strong emotional support in this  journey because we know exactly the roller coaster that you are going through. Your “Trust” means everything to us and we promise no matter what we will never break it.</p>
+        <p className="text-white font-kalam font-normal lg:text-2xl text-justify ">Pregnancy is the most beautiful moment in a couple’s life. We deeply understand that alongside  this happiness, there are also many doubts, a lot of confusion and anxiety. You can ask us anything and we will patiently answer them all till you are at absolute ease. For us, it is equally important to provide you with strong emotional support in this  journey because we know exactly the roller coaster that you are going through. Your “Trust” means everything to us and we promise no matter what we will never break it.</p>
       </div>
     </div>
   </div>
 </div>
 <div className="mb-[200px] mt-[150px]">
-  <p className="font-bold lg:text-[48px] lg:ml-[-400px]" style={{color:"#A5009E"}}>About Dr. Sri Theja Reddy</p>
+  <p className="font-bold lg:text-[48px] font-sans lg:ml-[-400px]" style={{color:"#A5009E"}}>About Dr. Sri Theja Reddy</p>
 </div>
 <div className="flex flex-col lg:ml-[10px]  mt-[40px] bg-light-pink p-8">
   {/* Doctor Image */}
@@ -103,7 +104,7 @@ With  all the skills and expertise she showed her passion & hardworking  nature 
   </div>
   
 </div>
-<div className="lg:mt-[-500px] xl:ml-[700px] xl:mr-[100px] lg:ml-[500px] lg:mr-[70px] ml-[30px] mr-[10px] justify-between">
+<div className="lg:mt-[-500px] xl:ml-[700px] xl:mr-[100px] lg:ml-[500px] lg:mr-[70px] ml-[30px] mr-[30px]  justify-between">
 <TextGenerateEffect words={[word1, word2,word3]} lineSpacing="mt-6" />
 
 </div>

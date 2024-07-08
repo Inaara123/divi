@@ -22,7 +22,7 @@ const Hero = () => {
       />
       <div className="absolute inset-0 flex flex-col justify-center ml-[30px] items-start p-4 md:p-8 lg:p-16 z-20">
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 md:mb-4 lg:mt-[-10px] lg:mb-[50px] " style={{color:"#84027F"}}>Divi Fertility Center</h1>
-        <p className="text-lg md:text-xl lg:text-[44px] mb-8 font-poppins font-semibold md:mb-4" style={{color:"rgba(72, 15, 92, 1)",}}>
+        <p className="text-lg md:text-xl lg:text-[44px] mb-8 font-poppins font-semibold md:mb-4 drop-shadow-2xl" style={{color:"rgba(72, 15, 92, 1)",}}>
          Guiding You to Safe, Natural Births <br/>
         <span className='block mt-[20px]'>with Exceptional Care</span>
           </p>
@@ -36,12 +36,12 @@ const Hero = () => {
             className='lg:w-[214px] lg:h-[214px]'
             />
           <div className='ml-4'>
-            <p className='font-bold  text-[24px]'>Dr. Sri Theja Reddy</p>
-            <p className='font-medium'>MBBS, MS - Obstetrics <br/> & Gynaecology</p>
+            <p className='font-bold font-sans  text-[24px]'>Dr. Sri Theja Reddy</p>
+            <p className='font-medium font-sans'>MBBS, MS - Obstetrics <br/> & Gynaecology</p>
         </div>
         </div>
         <div className="mt-[30px]">
-              <p className="text-dark-pink font-bold lg:text-[32px]">Book a consultation</p>
+              <p className="text-dark-pink font-bold font-sans lg:text-[32px]">Book a consultation</p>
               <div className="space-y-4">
                 <div>
                   <input
@@ -60,7 +60,7 @@ const Hero = () => {
                     className="w-full p-2 border border-gray-300 rounded-[10px]"
                   />
                 </div>
-                <button className="bg-dark-pink text-white py-2 px-4 rounded-[10px]">Book an Appointment</button>
+                <button className="bg-dark-pink text-white font-sans py-2 px-4 rounded-[10px]">Book an Appointment</button>
               </div>
             </div>
       </div>

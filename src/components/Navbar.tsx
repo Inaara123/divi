@@ -67,7 +67,7 @@ const Navbar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden">
+        <div className="md:hidden overflow-auto">
           <div className="flex flex-col px-2 pt-4 pb-3 space-y-4 sm:px-3">
             <Link href="/">
              About

@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react'
 
+
 const Service = () => {
   const services = [
     {
@@ -21,6 +22,7 @@ const Service = () => {
   ];
   return (
     <div className='bg-light-pink lg:pt-[200px] '>
+      
       <p className='text-dark-pink pt-[150px] text-center font-bold lg:text-[48px] underline'>
       Our Services
       </p>
@@ -61,6 +63,7 @@ const Service = () => {
         height={233}/>
         </div>
       </div>
+     
 
     </div>
   )

@@ -13,8 +13,10 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['DM Sans', 'sans-serif'],
-        poppins: ['Poppins', 'sans-serif'],
+        'sans': ['DM Sans', 'sans-serif'],
+        'poppins': ['Poppins', 'sans-serif'],
+        'baloo': ['"Baloo 2"', 'cursive'],
+        'kalam': ['Kalam', 'cursive'],
       },
       colors: {
         'light-pink': '#FFE5F5',

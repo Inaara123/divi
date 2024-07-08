@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center lg:pt-[200px] bg-light-pink p-10">
       <div className="w-full lg:w-1/2 p-6">
-        <h2 className="lg:text-[48px] font-bold mb-4 text-dark-pink underline">Contact Us</h2>
+        <h2 className="lg:text-[48px] font-bold font-sans mb-4 text-dark-pink underline">Contact Us</h2>
         <div className="space-y-4 mt-[50px]">
           <div className="flex flex-col items-start">
             <div className="flex items-center">
@@ -20,7 +20,7 @@ const Contact = () => {
               </span>
               
             </div>
-            <p className="ml-[70px] mt-[-40px] lg:mt-[-50px]  lg:text-[28px] " style={{color:"rgba(92, 33, 87, 1)"}}>8688023456</p>
+            <p className="ml-[70px] mt-[-40px] lg:mt-[-50px] font-baloo font-semibold lg:text-[28px] " style={{color:"rgba(92, 33, 87, 1)"}}>8688023456</p>
           </div>
           <div className="flex flex-col items-start ">
             <div className="flex items-center mt-[50px]">
@@ -33,7 +33,7 @@ const Contact = () => {
               </span>
               
             </div>
-            <p className="ml-[70px] mt-[-40px] lg:mt-[-50px]  lg:text-[28px] " style={{color:"rgba(92, 33, 87, 1)"}}>@divifertilitycenter</p>
+            <p className="ml-[70px] mt-[-40px] lg:mt-[-50px] font-baloo font-semibold  lg:text-[28px] " style={{color:"rgba(92, 33, 87, 1)"}}>@divifertilitycenter</p>
           </div>
           <div className="flex flex-col items-start ">
             <div className="flex items-center mt-[50px]">
@@ -46,7 +46,7 @@ const Contact = () => {
               </span>
               
             </div>
-            <p className="ml-[70px] mt-[-40px] lg:mt-[-50px]  lg:text-[28px] " style={{color:"rgba(92, 33, 87, 1)"}}>@divifertilitycenter</p>
+            <p className="ml-[70px] font-baloo font-semibold mt-[-40px] lg:mt-[-50px]  lg:text-[28px] " style={{color:"rgba(92, 33, 87, 1)"}}>@divifertilitycenter</p>
           </div>
           <div className="flex flex-col items-start ">
             <div className="flex items-center mt-[50px]">
@@ -59,7 +59,7 @@ const Contact = () => {
               </span>
               
             </div>
-            <p className="ml-[70px] mt-[-60px] lg:mt-[-70px]  lg:text-[28px] " style={{color:"rgba(92, 33, 87, 1)"}}>Above Ratnadeep, 1st floor ,Divi Speciality Clinic, main road, behind Gangaram, Chanda Nagar, Hyderabad, 500050,</p>
+            <p className="ml-[70px] mt-[-60px] lg:mt-[-70px] font-baloo font-semibold  lg:text-[28px] " style={{color:"rgba(92, 33, 87, 1)"}}>Above Ratnadeep, 1st floor ,Divi Speciality Clinic, main road, behind Gangaram, Chanda Nagar, Hyderabad, 500050,</p>
           </div>
           
         </div>
@@ -74,6 +74,7 @@ const Contact = () => {
         ></iframe>
       </div>
     </div>
+    
   )
 }
 
