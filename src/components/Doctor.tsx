@@ -88,11 +88,11 @@ With  all the skills and expertise she showed her passion & hardworking  nature 
   </div>
 </div>
 <div className="mb-[200px] mt-[150px]">
-  <p className="font-bold lg:text-[48px] font-sans lg:ml-[-400px]" style={{color:"#A5009E"}}>About Dr. Sri Theja Reddy</p>
+  <p className="font-bold lg:text-[48px] text-center font-sans lg:ml-[-400px]" style={{color:"#A5009E"}}>About Dr. Sri Theja Reddy</p>
 </div>
 <div className="flex flex-col lg:ml-[10px]  mt-[40px] bg-light-pink p-8">
   {/* Doctor Image */}
-  <div className=" lg:ml-[-500px] mt-[-180px] ">
+  <div className=" lg:ml-[-600px] mt-[-180px] ">
     <Image
       src="/s.svg"
       alt="Doctor"
@@ -104,7 +104,7 @@ With  all the skills and expertise she showed her passion & hardworking  nature 
   </div>
   
 </div>
-<div className="lg:mt-[-500px] xl:ml-[700px] xl:mr-[100px] lg:ml-[500px] lg:mr-[70px] ml-[30px] mr-[30px]  justify-between">
+<div className="lg:mt-[-500px] xl:ml-[500px] xl:mr-[70px] lg:ml-[500px] lg:mr-[70px] ml-[30px] mr-[30px]  justify-between">
 <TextGenerateEffect words={[word1, word2,word3]} lineSpacing="mt-6" />
 
 </div>

@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import Appointment from './Appointment';
 
 const Hero = () => {
   const styles = {
@@ -40,29 +41,7 @@ const Hero = () => {
             <p className='font-medium font-sans'>MBBS, MS - Obstetrics <br/> & Gynaecology</p>
         </div>
         </div>
-        <div className="mt-[30px]">
-              <p className="text-dark-pink font-bold font-sans lg:text-[32px]">Book a consultation</p>
-              <div className="space-y-4">
-                <div>
-                  <input
-                    id="name"
-                    type="text"
-                    placeholder="Enter your name"
-                    className="w-full p-2 border border-gray-300 rounded-[10px]"
-                  />
-                </div>
-                <div>
-              
-                  <input
-                    id="contact"
-                    type="text"
-                    placeholder="Enter your contact number"
-                    className="w-full p-2 border border-gray-300 rounded-[10px]"
-                  />
-                </div>
-                <button className="bg-dark-pink text-white font-sans py-2 px-4 rounded-[10px]">Book an Appointment</button>
-              </div>
-            </div>
+       <Appointment/>
       </div>
 
       
