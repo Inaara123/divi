@@ -14,7 +14,7 @@ const Lamp:React.FC = () => {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-8  py-4 bg-clip-text text-center text-[16px] font-medium tracking-tight text-transparent md:text-[32px] lg:text-[42px]"
+        className="mt-8 sm:mt-[2px] py-4 bg-clip-text text-center text-[16px] font-medium tracking-tight text-transparent md:text-[32px] lg:text-[42px]"
         style={{color:"rgba(159, 35, 110, 1)"}}
       >
         We dont care what day it is , what time it <br/>is, what festival it is, when you need us,<br/>  we will be there right beside you
