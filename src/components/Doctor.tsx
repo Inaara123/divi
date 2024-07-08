@@ -104,7 +104,7 @@ With  all the skills and expertise she showed her passion & hardworking  nature 
   </div>
   
 </div>
-<div className="lg:mt-[-500px] xl:ml-[500px] xl:mr-[70px] lg:ml-[500px] lg:mr-[70px] ml-[30px] mr-[30px]  justify-between">
+<div className="lg:mt-[-500px] xl:ml-[600px] xl:mr-[70px] lg:ml-[500px] lg:mr-[70px] ml-[30px] mr-[30px]  justify-between">
 <TextGenerateEffect words={[word1, word2,word3]} lineSpacing="mt-6" />
 
 </div>
