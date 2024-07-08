@@ -10,7 +10,7 @@ const Appointment = () => {
 
   const bookAppointment = async () => {
     try {
-      const response = await axios.post('http://localhost:3001/appointments', { name, contact });
+      const response = await axios.post('http://https://divivifertility.vercel.app/appointments', { name, contact });
       console.log(response.data);
       toast.success('Appointment booked successfully!');
       setName('');
