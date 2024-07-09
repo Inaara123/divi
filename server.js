@@ -4,7 +4,10 @@ const cors = require('cors');
 
 const prisma = new PrismaClient();
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin:'https://divivifertility.vercel.app',
+}
+));
 app.use(express.json());
 
 // Endpoint to create an appointment

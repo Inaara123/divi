@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from 'react';
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
@@ -10,7 +10,7 @@ const Appointment = () => {
 
   const bookAppointment = async () => {
     try {
-      const response = await axios.post('http://https://divivifertility.vercel.app/appointments', { name, contact });
+      const response = await axios.post('https://divi-backend.onrender.com/appointments', { name, contact }); // Adjust URL based on your backend URL during development
       console.log(response.data);
       toast.success('Appointment booked successfully!');
       setName('');
